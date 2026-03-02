@@ -1,0 +1,19 @@
+{
+  "name": "madypocket_bot",
+  "version": "1.0.0",
+  "description": "MadyPocket Telegram Expense Tracker Bot",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "express": "^5.2.1",
+    "node-cron": "^4.2.1",
+    "node-telegram-bot-api": "^0.67.0",
+    "sqlite3": "^5.1.7"
+  }
+}
